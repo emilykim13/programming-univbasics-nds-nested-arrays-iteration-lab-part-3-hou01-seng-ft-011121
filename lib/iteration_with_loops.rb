@@ -15,6 +15,6 @@ mixed_data_1 = [
  # datas = [mixed_data_1, mixed_data_2]
  # 
  # puts ("#{mixed_data_1(0)} #{mixed_data_1(2)} #{mixed_data_1(4)} #{mixed_data_1(5)} #{mixed_data_1(7)} #{mixed_data_1(10)}")
-  
+
   
 end
