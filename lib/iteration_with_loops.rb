@@ -6,19 +6,17 @@ def join_nested_strings(src)
 #  ["The", 4, "quick"],
 #  [-1, "brown", "fox", 30],
 #]
-#mixed_data_2 = [
-#  ["Turning", "and", "turning", "in", "the", "widening", "gyre"],
-#  ["The", "falcon", "cannot", "hear", "the", "falconer;"],
-#  ["Things", "fall", "apart;", "the", "centre", "cannot", "hold"]
-#]
+
  # datas = [mixed_data_1, mixed_data_2]
- # 
+ # if element.is_a? |element|
+ #     join_strings = mixed_data_1 + " " + element
  # puts ("#{mixed_data_1(0)} #{mixed_data_1(2)} #{mixed_data_1(4)} #{mixed_data_1(5)} #{mixed_data_1(7)} #{mixed_data_1(10)}")
+ 
   join_strings = ""
   src.each do |array|
     array.each do |element|
     if element.is_a? String
-       join_strings = join_strings + " " +element
+       join_strings = join_strings + " " + element
      end
   end
 end
